@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    color: gray;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+input{
+    width: 60%;
+    padding: 15px;
+}
+.Searchbar{
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px;
+}
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+.Product{
+    text-align: center;
+}
+.About{
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px;
+    p{
+        margin-top: 50px;
+    }
+}
+.Contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.product1{
+    text-align: center;
+    img{
+        margin-top:5%;
+    }
+    p{
+        padding: 20px;
+        margin: 10px;
+        line-height: 25px;
+    }
+
+}
+.product2{
+    text-align: center;
+    img{
+        margin-top:5%;
+    }
+    p{
+        padding: 20px;
+        margin: 10px;
+        line-height: 25px;
+    }
+
+}
+.product3{
+    text-align: center;
+    img{
+        margin-top:5%;
+    }
+    p{
+        padding: 20px;
+        margin: 10px;
+        line-height: 25px;
+    }}
+button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #555;
+}
+.prev-btn {
+    margin-right: auto;
+}
+.next-btn {
+    margin-left: auto;
+}
