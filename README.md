@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Perfumy React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern perfume product UI built using React.\
+This project showcases a simple e-commerce layout with reusable
+components and clean structure.
 
-## Available Scripts
+------------------------------------------------------------------------
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+-   🧭 Navigation Bar\
+-   🔍 Search Bar UI\
+-   🛍️ Product Listing Section\
+-   📄 About Section\
+-   📞 Contact Section\
+-   ⚛️ Component-based architecture
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+------------------------------------------------------------------------
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+-   React.js\
+-   JavaScript (ES6+)\
+-   HTML5 & CSS3
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+------------------------------------------------------------------------
 
-### `npm run build`
+## 📁 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    src/
+     ├── assets/
+     │    └── img/
+     ├── Navbar.js
+     ├── Search.js
+     ├── Product.js
+     ├── About.js
+     ├── Contact.js
+     ├── index.js
+     ├── style.css
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+------------------------------------------------------------------------
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Installation & Setup
 
-### `npm run eject`
+1.  Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```{=html}
+<!-- -->
+```
+    git clone https://github.com/Sriram023/Perfumy-react.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2.  Navigate to project folder:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```{=html}
+<!-- -->
+```
+    cd Perfumy-react
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3.  Install dependencies:
 
-## Learn More
+```{=html}
+<!-- -->
+```
+    npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4.  Run the project:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```{=html}
+<!-- -->
+```
+    npm start
 
-### Code Splitting
+------------------------------------------------------------------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🎯 Future Improvements
 
-### Analyzing the Bundle Size
+-   🔄 Dynamic product rendering using `.map()`\
+-   🔎 Functional search filter\
+-   🎨 Improved UI/UX design\
+-   🛒 Add to cart functionality
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+------------------------------------------------------------------------
 
-### Making a Progressive Web App
+## 👨‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Sriram**\
+Aspiring Full Stack Developer 🚀
 
-### Advanced Configuration
+------------------------------------------------------------------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ⭐ Support
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you like this project, give it a ⭐ on GitHub!
